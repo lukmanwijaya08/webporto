@@ -28,7 +28,7 @@ export default function Projects() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
         {projects.map((project, index) => (
-          <ScrollReveal key={index} delay={index * 0.1} className="h-full">
+          <ScrollReveal key={index} delay={index * 0.1}>
             <div className="group relative bg-accent/20 backdrop-blur-md border border-white/10 rounded-[1.5rem] p-5 hover:bg-accent/40 transition-colors duration-300 flex flex-col h-full">
               <div
                 className="relative h-48 w-full rounded-xl overflow-hidden cursor-pointer mb-5 shrink-0 bg-accent/30 flex items-center justify-center border border-white/5"
