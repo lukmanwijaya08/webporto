@@ -18,7 +18,7 @@ export const projects = [
       en: "HR management system featuring real-time attendance, leave deductions, and automated BPJS calculation.",
       id: "Sistem HR dengan pelacakan absensi real-time, potongan cuti, dan kalkulasi BPJS otomatis."
     },
-    image: "/projects/hris.png                                                                                                          
+    image: "/projects/hris.png",                                                                                                       
     category: "Web Application",
     technologies: ["Laravel 11", "React.js", "Mysql"],
     github: "", 
@@ -30,7 +30,7 @@ export const projects = [
       en: "Point of Sale and ERP system for coffee shops featuring cash reporting, procurement audits, and asset tracking.",
       id: "Sistem Point of Sale dan ERP untuk kedai kopi yang dilengkapi fitur pelaporan kas, audit pengadaan, dan pelacakan aset."
     },
-    image: "/projects/pos.png"
+    image: "/projects/pos.png",
     category: "Web App",
     technologies: ["Laravel 11", "MySQL", "Tailwind CSS","React.js"],
     github: "",
