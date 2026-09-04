@@ -22,9 +22,11 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: `${profile.name} — ${(profile.role as any).en}`,
-  description: (profile.bio as any).en,
-};
+  title: 'Portofolio Lukman',
+  description: 'Portofolio resmi Lukman, Pengembang Web Full-Stack yang berspesialisasi dalam membangun aplikasi modern dan berkinerja tinggi.',
+  keywords: ['Web Developer', 'Full-Stack', 'Frontend', 'Backend', 'React', 'Laravel', 'Next.js'],
+  authors: [{ name: 'Lukman' }],
+}
 
 export default function RootLayout({
   children,
